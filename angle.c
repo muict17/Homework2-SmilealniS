@@ -25,28 +25,7 @@ int main()
         result*=-1;
     }
 
-    if(result==1)
-    {
-        printf("Angle: 30\n");
-    } else if(result==2)
-    {
-        printf("Angle: 60\n");
-    } else if(result==3)
-    {
-        printf("Angle: 90\n");
-    } else if(result==4)
-    {
-        printf("Angle: 120\n");
-    } else if(result==5)
-    {
-        printf("Angle: 150\n");
-    } else if(result==6)
-    {
-        printf("Angle: 180\n");
-    } else if(result==0)
-    {
-        printf("Angle: 0\n");
-    }
+    printf("Angle: %d\n", reault*30);
 
     return 0;
 }
